@@ -1,11 +1,13 @@
-// ConsoleApplication1.cpp : Defines the entry point for the console application.
-//
-
 #include "stdafx.h"
+#include <iostream>
 
+int readNumber();
+void writeAnswer(int x, int y);
 
 int main()
 {
-    return 0;
+	int n = readNumber();
+	int o = readNumber();
+	writeAnswer(n, o);
+	
 }
-
